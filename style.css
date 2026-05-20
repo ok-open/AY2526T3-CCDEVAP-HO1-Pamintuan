@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme{
+    background:rgb(0, 166, 255);
+    color:white;
+    padding: 50px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+
+
+}
+
+main{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-20px);
+}
+.nav a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display:inline-block;
+    
+}
+.nav a:hover{
+    color:brown;
+}
+header{
+    border: 2px solid black;
+}
+.nameSupport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50;
+}
+
+.nameSupport{
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    line-height: 120px;
+}
+.name{
+    display: block;
+    text-align: center;
+   font-size: 70px;
+   margin: 50px 0;
+   text-decoration: none;
+   line-height:5px;
+   color:black;
+}
+.name:hover{
+color:brown;
+}
+
+footer{
+    background:rgb(0, 166, 255);
+    color:white;
+    padding: 50px 50px;
+    text-decoration: underline;
+    display:flexbox;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+
+}
+footer:hover{
+    color:brown;
+}
+
+#hobbiestext{
+    display:flex;
+    flex-direction: column;
+    margin: 60px;
+    font-size: 30px;
+}
+.picrow{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.pic{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:20%;
+    font-size: 30px;
+}
+.pic:hover{
+    color:brown;
+}
+
+.pic img{
+    width:100%;
+    height:300px;
+}
+
+#TopText{
+    display: flex;
+    justify-content: center;
+   
+}
+#TopText:hover{
+    color:brown;
+}
+table {
+    width: 80%;
+    margin: 50px;
+    border-collapse: collapse;
+     border: 1px solid black;
+      transform: translateY(-200px);
+     transform: translateX(125px);
+}
+th,td {
+   
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(0, 166, 255,0.2);
+    
+}
+td:hover{
+    color:brown;
+}
