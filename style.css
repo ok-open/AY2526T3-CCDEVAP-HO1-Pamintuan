@@ -38,6 +38,11 @@ main{
 header{
     border: 2px solid black;
 }
+#ig{
+    display: flex;
+    justify-content: left;
+
+}
 .nameSupport {
     display: flex;
     justify-content: center;
@@ -103,6 +108,10 @@ footer:hover{
 }
 
 .pic img{
+    width:100%;
+    height:300px;
+}
+.pic video{
     width:100%;
     height:300px;
 }
